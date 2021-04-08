@@ -2,28 +2,29 @@
 #include<conio.h>
 int main()
 {
-	int mark;
+	
+	int a;
 	printf("Enter a number:");
-	scanf("%d",&mark);
-	if(mark>85&&mark<=100)
+	scanf("%d",&a);
+	if(a>=85&&a<=100)
 	{
-		printf("A Grade");
+		printf("Grade A");
 	}
-	else if(mark>70&&mark<=84)
+	else if(a>=70&&a>=84)
 	{
-		printf("B grade");
+		printf("Grade B");
 	}
-	else if(mark>55&&mark<69)
+	else if(a>=55&&a<=69)
 	{
-		printf("C Grade");
+		printf("Grade C");
 	}
-	else if(mark>40&&mark<54)
+	else if (a>=40&&a<=54)
 	{
-		printf("D Grade");
+		printf("Grade D");
 	}
-	else if(mark>=0&&mark<40)
+	else if(a>0&&a<40)
 	{
-		printf("F Grade");
+		printf("Grade F");
 	}
 	return 0;
 }
