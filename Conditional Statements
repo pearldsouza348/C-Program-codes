@@ -1,0 +1,38 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int a, result;
+	printf("Select a number from 1 to 5:");
+	scanf("%d",&a);
+	switch(a)
+	{
+		
+		case 1: result = 1;
+	    printf("1.Pizza\n");
+	    printf("Price - Rs 239");
+	    break;
+	    case 2: result = 2;
+        printf("2.Burger\n");
+        printf("Price - Rs 129\n");
+        break;
+        case 3: result = 3;
+        printf("3.Pasta\n");
+        printf("Price - Rs 179");
+        break;
+        case 4: result = 4;
+        printf("4.French Fries\n");
+        printf("Price - Rs 99");
+        break;
+        case 5: result = 5;
+        printf("5.Sandwich\n");
+        printf("Price - Rs 149");
+        break;
+        
+        
+     }
+    return 0;
+
+	
+	
+}
